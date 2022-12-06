@@ -116,26 +116,6 @@ ul {
           align-items: center;
 }
 
-.logo {
-  display: block;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
-  letter-spacing: 0.03em;
-}
-
-.logo-header {
-  -ms-flex-item-align: center;
-      align-self: center;
-  margin-right: 93px;
-  color: var(--logo-color);
-}
-
-.logo-web {
-  color: var(--accent-color);
-}
-
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -265,4 +245,24 @@ ul {
 
 .header-contacts-link:focus svg {
   fill: var(--accent-color);
+}
+
+.logo {
+  display: block;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923076923;
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 93px;
+  color: var(--logo-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
 }/*# sourceMappingURL=main.css.map */
