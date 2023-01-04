@@ -102,6 +102,26 @@ ul {
   background-color: var(--accent-color);
 }
 
+.order-btn {
+  padding-right: 32px;
+  padding-left: 32px;
+  -webkit-transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: var(--transition-dur);
+          transition-duration: var(--transition-dur);
+  -webkit-transition-timing-function: var(--transition-function);
+          transition-timing-function: var(--transition-function);
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--active-btn-bgr);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 .header {
   border-bottom: 1px solid #ECECEC;
   background-color: var(--main-white-color);
