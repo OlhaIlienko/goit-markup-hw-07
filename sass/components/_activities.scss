@@ -13,6 +13,12 @@
 .activity {
     flex-basis: calc(( 100% - 60px) / 3);
 
+    &__title {
+        font-size: 14px;
+        line-height: calc(16 / 14);
+        text-transform: uppercase;
+    }
+
     &__link {
         position: relative;
         text-align: center;
